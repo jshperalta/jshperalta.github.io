@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsj.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsj.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsj.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42Vksj.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksj.ttf) format('truetype');
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: 'Space Grotesk', sans-serif;
+}
+nav {
+  display: flex;
+  width: 1440px;
+  padding: var(--Radius-Zero, 0px) 24px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--Radius-Zero, 0px);
+}
+nav .container {
+  display: flex;
+  width: 1200px;
+  padding: var(--Radius-Zero, 0px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Radius-Zero, 0px);
+  flex-shrink: 0;
+}
+nav .container .content {
+  display: flex;
+  width: 1200px;
+  padding: var(--Radius-Zero, 0px);
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+nav .container .content .brand {
+  display: flex;
+  padding: var(--Radius-Zero, 0px);
+  align-items: flex-start;
+  gap: var(--Radius-Zero, 0px);
+}
+nav .container .content .menu {
+  display: flex;
+  padding: var(--Radius-Zero, 0px);
+  align-items: center;
+  gap: 32px;
+}
+nav .container .content .menu li {
+  list-style: none;
+}
+nav .container .content .menu li a {
+  text-decoration: none;
+  display: flex;
+  padding: 24px var(--Numbers-General-12, 12px);
+  align-items: flex-start;
+  gap: var(--Radius-Zero, 0px);
+}

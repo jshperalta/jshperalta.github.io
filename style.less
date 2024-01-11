@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 1440px;
+    padding: var(--Radius-Zero, 0px) 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--Radius-Zero, 0px);
+
+    .container {
+        display: flex;
+        width: 1200px;
+        padding: var(--Radius-Zero, 0px);
+        justify-content: center;
+        align-items: center;
+        gap: var(--Radius-Zero, 0px);
+        flex-shrink: 0;
+
+        .content {
+            display: flex;
+            width: 1200px;
+            padding: var(--Radius-Zero, 0px);
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+
+            .brand {
+                display: flex;
+                padding: var(--Radius-Zero, 0px);
+                align-items: flex-start;
+                gap: var(--Radius-Zero, 0px);
+            }
+
+            .menu {
+                display: flex;
+                padding: var(--Radius-Zero, 0px);
+                align-items: center;
+                gap: 32px;
+
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        display: flex;
+                        padding: 24px var(--Numbers-General-12, 12px);
+                        align-items: flex-start;
+                        gap: var(--Radius-Zero, 0px);
+                    }
+                }
+            }
+        }
+    }
+
+}
