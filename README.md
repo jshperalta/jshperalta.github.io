@@ -8,8 +8,8 @@ A brief description of what this project does and who it's for
 I'm a full stack developer...
 
 
-# Hi, I'm Katherine! 👋
-
+# Hi, I'm Josh! 👋
+Nice to meet you. k thanks bye
 
 ## 🛠 Skills
 Javascript, HTML, CSS...
